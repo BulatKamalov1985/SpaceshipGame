@@ -14,6 +14,7 @@
 		395C82B52A73C114006F9688 /* SpaceshipGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 395C82B42A73C114006F9688 /* SpaceshipGameTests.swift */; };
 		395C82BF2A73C114006F9688 /* SpaceshipGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 395C82BE2A73C114006F9688 /* SpaceshipGameUITests.swift */; };
 		395C82C12A73C114006F9688 /* SpaceshipGameUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 395C82C02A73C114006F9688 /* SpaceshipGameUITestsLaunchTests.swift */; };
+		398AC77C2A77CD88006B8FE0 /* Starfield.sks in Resources */ = {isa = PBXBuildFile; fileRef = 398AC77B2A77CD88006B8FE0 /* Starfield.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		395C82BA2A73C114006F9688 /* SpaceshipGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpaceshipGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		395C82BE2A73C114006F9688 /* SpaceshipGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceshipGameUITests.swift; sourceTree = "<group>"; };
 		395C82C02A73C114006F9688 /* SpaceshipGameUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceshipGameUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		398AC77B2A77CD88006B8FE0 /* Starfield.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Starfield.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				395C82A32A73C111006F9688 /* SpaceshipGameApp.swift */,
 				395C82A52A73C111006F9688 /* ContentView.swift */,
+				398AC77B2A77CD88006B8FE0 /* Starfield.sks */,
 				395C82A72A73C114006F9688 /* Assets.xcassets */,
 				395C82A92A73C114006F9688 /* Preview Content */,
 			);
@@ -232,6 +235,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				395C82AB2A73C114006F9688 /* Preview Assets.xcassets in Resources */,
+				398AC77C2A77CD88006B8FE0 /* Starfield.sks in Resources */,
 				395C82A82A73C114006F9688 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
