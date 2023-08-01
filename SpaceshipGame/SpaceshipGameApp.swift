@@ -8,10 +8,12 @@
 import SwiftUI
 
 @main
-struct SpaceshipGameApp: App {
+struct YourAppName: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationView {
+                WelcomeView()
+            }
         }
     }
 }
