@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		39565DA82A87AF8B0086F360 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39565DA72A87AF8B0086F360 /* GameScene.swift */; };
 		395C82A42A73C111006F9688 /* SpaceshipGameApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 395C82A32A73C111006F9688 /* SpaceshipGameApp.swift */; };
 		395C82A62A73C111006F9688 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 395C82A52A73C111006F9688 /* ContentView.swift */; };
 		395C82A82A73C114006F9688 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 395C82A72A73C114006F9688 /* Assets.xcassets */; };
@@ -18,7 +19,6 @@
 		39E9DDFC2A79109C003C558F /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39E9DDFB2A79109C003C558F /* WelcomeView.swift */; };
 		39E9DE002A791777003C558F /* TableViewScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39E9DDFF2A791777003C558F /* TableViewScreen.swift */; };
 		39E9DE022A791796003C558F /* SecondScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39E9DE012A791796003C558F /* SecondScreen.swift */; };
-		39E9DE082A7938EF003C558F /* GameSceneViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39E9DE072A7938EF003C558F /* GameSceneViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		39565DA72A87AF8B0086F360 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		395C82A02A73C111006F9688 /* SpaceshipGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpaceshipGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		395C82A32A73C111006F9688 /* SpaceshipGameApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceshipGameApp.swift; sourceTree = "<group>"; };
 		395C82A52A73C111006F9688 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -53,7 +54,6 @@
 		39E9DDFB2A79109C003C558F /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
 		39E9DDFF2A791777003C558F /* TableViewScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewScreen.swift; sourceTree = "<group>"; };
 		39E9DE012A791796003C558F /* SecondScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondScreen.swift; sourceTree = "<group>"; };
-		39E9DE072A7938EF003C558F /* GameSceneViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameSceneViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,7 +109,7 @@
 				39E9DE012A791796003C558F /* SecondScreen.swift */,
 				395C82A52A73C111006F9688 /* ContentView.swift */,
 				39E9DDFB2A79109C003C558F /* WelcomeView.swift */,
-				39E9DE072A7938EF003C558F /* GameSceneViewModel.swift */,
+				39565DA72A87AF8B0086F360 /* GameScene.swift */,
 				398AC77B2A77CD88006B8FE0 /* Starfield.sks */,
 				395C82A72A73C114006F9688 /* Assets.xcassets */,
 				395C82A92A73C114006F9688 /* Preview Content */,
@@ -273,8 +273,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				39565DA82A87AF8B0086F360 /* GameScene.swift in Sources */,
 				395C82A62A73C111006F9688 /* ContentView.swift in Sources */,
-				39E9DE082A7938EF003C558F /* GameSceneViewModel.swift in Sources */,
 				39E9DDFC2A79109C003C558F /* WelcomeView.swift in Sources */,
 				395C82A42A73C111006F9688 /* SpaceshipGameApp.swift in Sources */,
 				39E9DE002A791777003C558F /* TableViewScreen.swift in Sources */,

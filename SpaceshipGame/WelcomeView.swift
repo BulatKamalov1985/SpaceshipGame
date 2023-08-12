@@ -12,6 +12,7 @@ struct WelcomeView: View {
     @State private var isTableViewActive = false
     @State private var isSecondScreenActive = false
 
+
     var body: some View {
         VStack {
             Text("Welcome to the Game!")
@@ -46,7 +47,7 @@ struct WelcomeView: View {
                 })
                 .hidden()
             
-            Button("Open Second Screen", action: {
+            Button("Open Setting Screen", action: {
                 isSecondScreenActive = true
             })
             .font(.title)
@@ -60,6 +61,7 @@ struct WelcomeView: View {
                 })
                 .hidden()
         }
+       
     }
 }
 
