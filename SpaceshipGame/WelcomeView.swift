@@ -33,7 +33,7 @@ struct WelcomeView: View {
                 })
                 .hidden()
             
-            Button("Open Table View", action: {
+            Button("Ship Selection", action: {
                 isTableViewActive = true
             })
             .font(.title)
