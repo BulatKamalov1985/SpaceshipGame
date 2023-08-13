@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		39565DA82A87AF8B0086F360 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39565DA72A87AF8B0086F360 /* GameScene.swift */; };
 		39565DAA2A87B8150086F360 /* ModelShip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39565DA92A87B8150086F360 /* ModelShip.swift */; };
-		39565DAC2A87BB930086F360 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39565DAB2A87BB930086F360 /* DetailView.swift */; };
+		39565DB22A8917DD0086F360 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39565DB12A8917DD0086F360 /* DetailView.swift */; };
 		395C82A42A73C111006F9688 /* SpaceshipGameApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 395C82A32A73C111006F9688 /* SpaceshipGameApp.swift */; };
 		395C82A62A73C111006F9688 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 395C82A52A73C111006F9688 /* ContentView.swift */; };
 		395C82A82A73C114006F9688 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 395C82A72A73C114006F9688 /* Assets.xcassets */; };
@@ -43,7 +43,7 @@
 /* Begin PBXFileReference section */
 		39565DA72A87AF8B0086F360 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		39565DA92A87B8150086F360 /* ModelShip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelShip.swift; sourceTree = "<group>"; };
-		39565DAB2A87BB930086F360 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		39565DB12A8917DD0086F360 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		395C82A02A73C111006F9688 /* SpaceshipGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpaceshipGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		395C82A32A73C111006F9688 /* SpaceshipGameApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceshipGameApp.swift; sourceTree = "<group>"; };
 		395C82A52A73C111006F9688 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -109,8 +109,8 @@
 			isa = PBXGroup;
 			children = (
 				395C82A32A73C111006F9688 /* SpaceshipGameApp.swift */,
+				39565DB12A8917DD0086F360 /* DetailView.swift */,
 				39E9DDFF2A791777003C558F /* TableViewScreen.swift */,
-				39565DAB2A87BB930086F360 /* DetailView.swift */,
 				39E9DE012A791796003C558F /* SecondScreen.swift */,
 				395C82A52A73C111006F9688 /* ContentView.swift */,
 				39E9DDFB2A79109C003C558F /* WelcomeView.swift */,
@@ -280,10 +280,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				39565DA82A87AF8B0086F360 /* GameScene.swift in Sources */,
+				39565DB22A8917DD0086F360 /* DetailView.swift in Sources */,
 				395C82A62A73C111006F9688 /* ContentView.swift in Sources */,
 				39E9DDFC2A79109C003C558F /* WelcomeView.swift in Sources */,
 				39565DAA2A87B8150086F360 /* ModelShip.swift in Sources */,
-				39565DAC2A87BB930086F360 /* DetailView.swift in Sources */,
 				395C82A42A73C111006F9688 /* SpaceshipGameApp.swift in Sources */,
 				39E9DE002A791777003C558F /* TableViewScreen.swift in Sources */,
 				39E9DE022A791796003C558F /* SecondScreen.swift in Sources */,
